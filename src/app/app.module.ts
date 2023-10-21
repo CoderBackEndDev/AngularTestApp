@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import {StatusInterceptor} from './status.interceptor';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { FeedbackComponent } from './feedback/feedback.component'
+import { FeedbackComponent } from './feedback/feedback.component';
+import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './projects/projects.component'
 @NgModule({
   declarations: [
     AppComponent,
     ContactUsComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    HomeComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
