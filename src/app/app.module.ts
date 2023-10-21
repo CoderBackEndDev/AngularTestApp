@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import {StatusInterceptor} from './status.interceptor';
-import { ContactUsComponent } from './contact-us/contact-us.component'
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FeedbackComponent } from './feedback/feedback.component'
 @NgModule({
   declarations: [
     AppComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,
